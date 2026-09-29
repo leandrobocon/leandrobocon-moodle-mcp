@@ -1,0 +1,29 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dependencies / builds
+node_modules/
+vendor/
+dist/
+build/
+coverage/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# Local runtime data
+data/
+tmp/
+logs/
+
+# Test artifacts
+.phpunit.result.cache
+.phpunit.cache/
